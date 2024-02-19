@@ -5,13 +5,14 @@
     <title>Document</title>
     <style>
         .recipe_link {
-            width: 500px;
+            width: 400px;
             border-radius: 20px;
-            transition: border-radius 0.2s;
+            transition: border-radius 0.1s, width 0.1s;
             transition-delay: 0.1s;
         }
         .recipe_link:hover{
             border-radius: 0px;
+            width: 500px;
         }
     </style>
 </head>
@@ -19,8 +20,15 @@
     <h1>
         Odin Recipes
     </h1>
-    <a href="recipes/lasagna.html" target="_blank">
-        <img class="recipe_link" src="./Images/Lasagna.jpg"> 
-    </a>
+    <div style="margin-bottom: 20px;">
+        <a href="recipes/lasagna.html" target="_blank">
+            <img class="recipe_link" src="./Images/Lasagna.jpg"> 
+        </a>
+    </div>
+    <div style="margin-bottom: 20px;">
+        <a href="recipes/chickenParm.html" target="_blank">
+            <img class="recipe_link" src="./Images/ChickenParm.webp"> 
+        </a>
+    </div>
 </body>
 </html>
